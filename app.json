@@ -103,7 +103,7 @@
     },
     "HASTAG": {
       "description": "menambahkan hastag, dipisahkan dengan spasi (#altergirl wajib diawal dan #alterboy setelah altergirl)",
-      "value": "#AlterGirl #AlterBoy #AlterAsk #AlterFind #AlterSpill #AlterStory"
+      "value": "#MyGirl #MyBoy #MyAsk #MyFind #MySpill #MyStory"
     },
     "PIC_BOY": {
       "description": "gambar fwb boy",
