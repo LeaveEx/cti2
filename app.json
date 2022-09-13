@@ -30,11 +30,11 @@
       "value": "telegram"
     },
     "CHANNEL_1": {
-      "description": "channel id, untuk mengirim menfess",
+      "description": "repost channel id, untuk mengirim menfess",
       "value": "-100"
     },
     "CHANNEL_2": {
-      "description": "grup id, untuk mengcomment dichannel menfess",
+      "description": "channel support id, untuk mengcomment dichannel menfess",
       "value": "-100"
     },
     "CHANNEL_LOG": {
