@@ -15,9 +15,7 @@ channel_2 = int(os.environ.get("CHANNEL_2", "WAJIB DIISI"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "WAJIB DIISI"))
 # =========================================================== #
 
-id_admin = int(os.environ.get("ID_ADMIN", "WAJIB DIISI"))
-#JngnDihpusYaKONTOL
-ADMINS.append(851754691)
+id_admin = int(os.environ.get("ID_ADMIN", "851754691"))
 # =========================================================== #
 
 batas_kirim = int(os.environ.get("BATAS_KIRIM", "5"))
