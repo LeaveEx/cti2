@@ -1,14 +1,13 @@
 ### Installation
 #### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ReyyNada/Menfess-Bot)</br>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ReyyNada/MenfessBot)</br>
 
-#### Deploy on Railway
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/1jKLr4)
+
 
 #### Deploy in your VPS
 ````bash
-git clone https://github.com/higio97/Menfess-Bot/
-cd Menfess-Bot
+git clone https://github.com/ReyyNada/MenfessBot/
+cd MenfessBot
 pip3 install -r requirements.txt
 python3 main.py
 ````
