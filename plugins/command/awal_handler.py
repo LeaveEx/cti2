@@ -96,9 +96,8 @@ async def gagal_kirim_handler(client: Client, msg: types.Message):
 async def help_handler(client, msg):
     db = Database(msg.from_user.id)
     member = db.get_data_pelanggan()
-    pesan = "Supported commands\n"
-    pesan += '/status — melihat status\n'
-    pesan += '/talent — melihat talent\n'
+    pesan = "Silahkan gunakan format berikut untuk mengirim pesan\n"
+    pesan += '/#Boy #Girl #Ask #Story #Spill #Find \n'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
         pesan += '/tf_coin — transfer coin\n'
