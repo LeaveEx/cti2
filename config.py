@@ -36,7 +36,7 @@ biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "40"))
 biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#AlterGirl #AlterBoy #AlterAsk #AlterFind #AlterSpill #AlterStory").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#Girl #Boy #Ask #Find #Spill #Story").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph/file/ee4e4864bc4ebfb7819be.jpg")
@@ -49,9 +49,9 @@ start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot m
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, pesan mu gagal terkirim silahkan gunakan hastag:
 
-#AlterBoy / #AlterGirl untuk Mencari Pasangan, Teman , Partner FWB
-#AlterAsk untuk Bertanya
-#AlterStory untuk Berbagi Cerita
-#AlterSpill untuk Spill Masalah
-#AlterFind untuk Mencari Pasangan, Teman, Partner FWB
+#Boy / #Girl untuk Mencari Pasangan, Teman , Partner FWB
+#Ask untuk Bertanya
+#Story untuk Berbagi Cerita
+#Spill untuk Spill Masalah
+#Find untuk Mencari Vcs
 """)
