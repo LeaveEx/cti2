@@ -35,7 +35,7 @@ async def on_message(client: Client, msg: Message):
             ]
             member = database.get_data_pelanggan()
             if member.status in status:
-                return await client.send_message(uid, "<i>Saat ini bot sedang dinonaktifkan</i>", enums.ParseMode.HTML)
+                return await client.send_message(uid, "<i>Saat ini bot sedang perbaikan</i>", enums.ParseMode.HTML)
 
         # anu = msg.caption if not msg.text else msg.text
         # print(f"-> {anu}")
