@@ -46,11 +46,5 @@ pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terleb
 start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot menfess, semua pesan yang kamu kirim akan masuk ke channel secara anonymous. ketik /help")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
-{mention}, pesan mu gagal terkirim silahkan gunakan hastag:
-
-#Boy / #Girl untuk Mencari Pasangan, Teman , Partner FWB
-#Ask untuk Bertanya
-#Story untuk Berbagi Cerita
-#Spill untuk Spill Masalah
-#Find untuk Mencari Vcs
+{mention}, Silahkan ketik /help untuk menggunakan bot ini
 """)
