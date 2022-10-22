@@ -53,7 +53,6 @@ class Helper():
 
     async def pesan_langganan(self):
         link_1 = await self.bot.export_chat_invite_link(config.channel_1)
-        
         markup = InlineKeyboardMarkup([
             [InlineKeyboardButton(' ᴄʜᴀɴɴᴇʟ ', url=link_1)
             [InlineKeyboardButton('ᴄᴏʙᴀ ʟᴀɢɪ', url=f'https://t.me/{self.bot.username}?start=start')]
