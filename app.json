@@ -33,10 +33,6 @@
       "description": "repost channel id, untuk mengirim menfess",
       "value": "-100"
     },
-    "CHANNEL_2": {
-      "description": "channel support id, untuk mengcomment dichannel menfess",
-      "value": "-100"
-    },
     "CHANNEL_LOG": {
       "description": "channel log id, untuk melihat log user menfess",
       "value": "-100"
@@ -103,7 +99,7 @@
     },
     "HASTAG": {
       "description": "menambahkan hastag, dipisahkan dengan spasi (#altergirl wajib diawal dan #alterboy setelah altergirl)",
-      "value": "#AlterGirl #AlterBoy #AlterAsk #AlterFind #AlterSpill #AlterStory"
+      "value": "#Girl #Boy #Ask #Find #Spill #Story"
     },
     "PIC_BOY": {
       "description": "gambar fwb boy",
@@ -115,7 +111,7 @@
     },
     "PESAN_JOIN": {
       "description": "pesan join grup, atau akses ditolak",
-      "value": "Tidak dapat diakses harap join terlebih dahulu"
+      "value": "ʜᴀɪɪɪɪɪ 🥰\n\nsɪʟᴀʜʟᴀɴ ᴊᴏɪɴ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ ʏᴀ sᴀʏᴀɴɢ ʙɪᴀʀ ʙɪsᴀ ᴍᴇʟɪʜᴀᴛ ʏᴀɴɢ ᴋᴀᴍᴜ ᴋɪʀɪᴍ"
     },
     "START_MSG": {
       "description": "pesan start pada bot",
