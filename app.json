@@ -123,7 +123,7 @@
     },
     "GAGAL_KIRIM": {
       "description": "pesan ketika hastag yang diketik tidak sesuai",
-      "value": "{mention}, pesan mu gagal terkirim silahkan gunakan hastag:\n\n#AlterBoy / #AlterGirl untuk Mencari Pasangan, Teman , Partner FWB\n#AlterAsk untuk Bertanya\n#AlterStory untuk Berbagi Cerita\n#AlterSpill untuk Spill Masalah\n#AlterFind untuk Mencari Pasangan, Teman, Partner FWB"
+      "value": "{mention}, pesan mu gagal terkirim silahkan gunakan hastag:\n\n#Boy / #Girl untuk Mencari Pasangan, Teman , Partner FWB\n#Ask untuk Bertanya\n#Story untuk Berbagi Cerita\n#Spill untuk Spill Masalah\n#Find untuk Mencari VCS"
     }
   },
   "buildpacks": [
