@@ -11,7 +11,6 @@ db_name = os.environ.get("DB_NAME", "telegram")
 # =========================================================== #
 
 channel_1 = int(os.environ.get("CHANNEL_1", "WAJIB DIISI"))
-channel_2 = int(os.environ.get("CHANNEL_2", "WAJIB DIISI"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "WAJIB DIISI"))
 # =========================================================== #
 
