@@ -13,7 +13,7 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
         all_menfess = user.all_menfess
         coin = user.coin
         if menfess >= config.batas_kirim:
-            if user.status == 'member' or user.status == 'talent':
+            if user.status == 'member':
                 if coin >= config.biaya_kirim:
                     coin = user.coin - config.biaya_kirim
                 else:
@@ -55,7 +55,7 @@ async def send_menfess_handler(client: Client, msg: types.Message):
         all_menfess = db_user.all_menfess
         coin = db_user.coin
         if menfess >= config.batas_kirim:
-            if db_user.status == 'member' or db_user.status == 'talent':
+            if db_user.status == 'member':
                 if coin >= config.biaya_kirim:
                     coin = db_user.coin - config.biaya_kirim
                 else:
