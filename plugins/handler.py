@@ -57,24 +57,6 @@ async def on_message(client: Client, msg: Message):
             elif command == '/list_ban':  # menampilkan perintah list banned
                 return await list_ban_handler(helper, client.id_bot)
 
-            elif command == '/talent':
-                return await talent_handler(client, msg)
-            
-            elif command == '/daddysugar':
-                return await daddy_sugar_handler(client, msg)
-
-            elif command == '/moansgirl':
-                return await moans_girl_handler(client, msg)
-            
-            elif command == '/moansboy':
-                return await moans_boy_handler(client, msg)
-
-            elif command == '/gfrent':
-                return await gf_rent_handler(client, msg)
-
-            elif command == '/bfrent':
-                return await bf_rent_handler(client, msg)
-
             elif command == '/stats':  # menampilkan perintah statistik
                 if uid == config.id_admin:
                     return await statistik_handler(helper, client.id_bot)
@@ -106,31 +88,7 @@ async def on_message(client: Client, msg: Message):
             elif re.search(r"^[\/]unadmin", command):
                 if uid == config.id_admin:
                     return await hapus_admin_handler(client, msg)
-
-            elif re.search(r"^[\/]addtalent", command):  # menambahkan talent baru
-                if uid == config.id_admin:
-                    return await tambah_talent_handler(client, msg)
-            
-            elif re.search(r"^[\/]addsugar", command):  # menambahkan daddy sugar baru
-                if uid == config.id_admin:
-                    return await tambah_sugar_daddy_handler(client, msg)
-            
-            elif re.search(r"^[\/]addgirl", command):  # menambahkan moans girl baru
-                if uid == config.id_admin:
-                    return await tambah_moans_girl_handler(client, msg)
-            
-            elif re.search(r"^[\/]addboy", command):  # menambahkan moans boy baru
-                if uid == config.id_admin:
-                    return await tambah_moans_boy_handler(client, msg)
-
-            elif re.search(r"^[\/]addgf", command):  # menambahkan gf rent baru
-                if uid == config.id_admin:
-                    return await tambah_gf_rent_handler(client, msg)
-
-            elif re.search(r"^[\/]addbf", command):  # menambahkan bf rent baru
-                if uid == config.id_admin:
-                    return await tambah_bf_rent_handler(client, msg)
-
+        
             elif re.search(r"^[\/]hapus", command):  # menambahkan mengapus talent
                 if uid == config.id_admin:
                     return await hapus_talent_handler(client, msg)
