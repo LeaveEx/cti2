@@ -23,6 +23,7 @@ async def send_with_pic_handler(client: Client, msg: types.Message, key: str, ha
             picture = config.pic_girl
         elif key == hastag[1]:
             picture = config.pic_boy
+
         link = await get_link()
         caption = msg.text or msg.caption
         entities = msg.entities or msg.caption_entities
