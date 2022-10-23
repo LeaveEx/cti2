@@ -89,10 +89,6 @@ async def on_message(client: Client, msg: Message):
                 if uid == config.id_admin:
                     return await hapus_admin_handler(client, msg)
         
-            elif re.search(r"^[\/]hapus", command):  # menambahkan mengapus talent
-                if uid == config.id_admin:
-                    return await hapus_talent_handler(client, msg)
-
             elif re.search(r"^[\/]ban", command):  # membanned user
                 member = database.get_data_pelanggan()
                 if member.status == 'admin' or member.status == 'owner':
