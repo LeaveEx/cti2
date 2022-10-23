@@ -18,21 +18,9 @@ id_admin = int(os.environ.get("ID_ADMIN", "5069042518"))
 # =========================================================== #
 
 batas_kirim = int(os.environ.get("BATAS_KIRIM", "5"))
-batas_talent = int(os.environ.get("BATAS_TALENT", "10"))
-batas_daddy_sugar = int(os.environ.get("BATAS_DADDY_SUGAR", "10"))
-batas_moansgirl = int(os.environ.get("BATAS_MOANSGIRL", "10"))
-batas_moansboy = int(os.environ.get("BATAS_MOANSBOY", "10"))
-batas_gfrent = int(os.environ.get("BATAS_GFRENT", "10"))
-batas_bfrent = int(os.environ.get("BATAS_BFRENT", "10"))
 # =========================================================== #
 
 biaya_kirim = int(os.environ.get("BIAYA_KIRIM", "10"))
-biaya_talent = int(os.environ.get("BIAYA_TALENT", "80"))
-biaya_daddy_sugar = int(os.environ.get("BIAYA_DADDY_SUGAR", "70"))
-biaya_moansgirl = int(os.environ.get("BIAYA_MOANSGIRL", "60"))
-biaya_moansboy = int(os.environ.get("BIAYA_MOANSBOY", "50"))
-biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "40"))
-biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 # =========================================================== #
 
 hastag = os.environ.get("HASTAG", "#Girl #Boy #Ask #Find #Spill #Story").replace(" ", "|").lower()
