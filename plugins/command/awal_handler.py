@@ -8,7 +8,7 @@ async def start_handler(client: Client, msg: types.Message):
     first = msg.from_user.first_name
     last = msg.from_user.last_name
     fullname = first if not last else first + ' ' + last
-    username = '@mahadappa' if not msg.from_user.username else '@' + msg.from_user.username
+    username = '@xflskyy' if not msg.from_user.username else '@' + msg.from_user.username
     mention = msg.from_user.mention
     await msg.reply_text(
         text = config.start_msg.format(
@@ -115,14 +115,6 @@ async def help_handler(client, msg):
         pesan += '/list_ban — melihat list banned\n'
         pesan += '/stats — melihat statistik bot\n'
         pesan += '/bot — setbot (on|off)\n'
-        pesan += '\n=====FITUR TALENT=====\n'
-        pesan += '/addtalent — menambahkan talent baru\n'
-        pesan += '/addsugar — menambahkan talent daddy sugar\n'
-        pesan += '/addgirl — menambahkan talent moans girl\n'
-        pesan += '/addboy — menambahkan talent moans boy\n'
-        pesan += '/addgf — menambahkan talent girlfriend rent\n'
-        pesan += '/addbf — menambahkan talent boyfriend rent\n'
-        pesan += '/hapus — menghapus talent\n'
         pesan += '\n=====BROADCAST OWNER=====\n'
         pesan += '/broadcast — mengirim pesan broadcast kesemua user\n'
         pesan += '/admin — menambahkan admin baru\n'
