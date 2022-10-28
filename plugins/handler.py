@@ -30,8 +30,7 @@ async def on_message(client: Client, msg: Message):
         # Pesan jika bot sedang dalam kondisi tidak aktif
         if not database.get_data_bot(client.id_bot).bot_status:
             status = [
-                'member', 'banned', 'talent', 'daddy sugar', 'moans girl',
-                'moans boy', 'girlfriend rent', 'boyfriend rent'
+                'member', 'banned'
             ]
             member = database.get_data_pelanggan()
             if member.status in status:
