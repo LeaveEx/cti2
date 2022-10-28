@@ -43,12 +43,6 @@ async def statistik_handler(client: Helper, id_bot: int):
     pesan = "<b>📊 STATISTIK BOT\n\n"
     pesan += f"▪️Pelanggan: {db.get_pelanggan().total_pelanggan}\n"
     pesan += f"▪️Admin: {len(bot.admin)}\n"
-    pesan += f"▪️Talent: {len(bot.talent)}\n"
-    pesan += f"▪️Daddy sugar: {len(bot.daddy_sugar)}\n"
-    pesan += f"▪️Moans girl: {len(bot.moansgirl)}\n"
-    pesan += f"▪️Moans boy: {len(bot.moansboy)}\n"
-    pesan += f"▪️Girlfriend rent: {len(bot.gfrent)}\n"
-    pesan += f"▪️Boyfriend rent: {len(bot.bfrent)}\n"
     pesan += f"▪️Banned: {len(bot.ban)}\n\n"
     pesan += f"🔰Status bot: {'AKTIF' if bot.bot_status else 'TIDAK AKTIF'}</b>"
     await client.message.reply_text(pesan, True, enums.ParseMode.HTML)
