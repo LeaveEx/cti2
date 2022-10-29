@@ -1,14 +1,13 @@
-### Installation
-#### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ReyyNada/MenfessBot)</br>
+
 
 
 
 #### Deploy in your VPS
 ````bash
-git clone https://github.com/ReyyNada/MenfessBot/
+git clone https://github.com/muhammadrizky16/MenfessBot/
 cd MenfessBot
 pip3 install -r requirements.txt
+nano config.py
 python3 main.py
 ````
 
