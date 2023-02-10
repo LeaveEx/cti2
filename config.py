@@ -11,6 +11,7 @@ db_name = os.environ.get("DB_NAME", "telegram")
 # =========================================================== #
 
 channel_1 = int(os.environ.get("CHANNEL_1", "WAJIB DIISI"))
+channel_2 = int(os.environ.get("CHANNEL_2", "WAJIB DIISI"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "WAJIB DIISI"))
 # =========================================================== #
 
@@ -26,8 +27,8 @@ biaya_kirim = int(os.environ.get("BIAYA_KIRIM", "10"))
 hastag = os.environ.get("HASTAG", "#Girl #Boy #Ask #Find #Spill #Story").replace(" ", "|").lower()
 # =========================================================== #
 
-pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph/file/ee4e4864bc4ebfb7819be.jpg")
-pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph/file/2562988d57d7f61384f24.jpg")
+pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph/file/b2f62b0642bf0fd5849a8.jpg")
+pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph/file/c9d103073f89b0568e38f.jpg")
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu")
