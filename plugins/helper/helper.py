@@ -36,7 +36,6 @@ class Helper():
             member = await self.bot.get_chat_member(config.channel_1, user_id)
         except UserNotParticipant:
             return False
-
         status = [
             enums.ChatMemberStatus.OWNER,
             enums.ChatMemberStatus.MEMBER,
@@ -49,8 +48,9 @@ class Helper():
 
     async def pesan_langganan(self):
         link_1 = await self.bot.export_chat_invite_link(config.channel_1)
+        link_2 = await self.bot.export_chat_invite_link(config.channel_2)
         markup = InlineKeyboardMarkup([
-            [InlineKeyboardButton(' ᴄʜᴀɴɴᴇʟ ', url=link_1)],
+            [InlineKeyboardButton('ʀᴇᴘᴏsᴛ ᴄʜᴀɴɴᴇʟ', url=link_1), InlineKeyboardButton('ɢʀᴏᴜᴘ', url=link_2)],
             [InlineKeyboardButton('ᴄᴏʙᴀ ʟᴀɢɪ', url=f'https://t.me/{self.bot.username}?start=start')]
         ])
         await self.bot.send_message(self.user_id, config.pesan_join, reply_to_message_id=self.message.id, reply_markup=markup)
@@ -97,7 +97,7 @@ class Helper():
             pesan += f"├ Cek Pesan : <a href='{link}'>Lihat pesan</a>\n"
             pesan += f"└ Waktu -: {self.get_time().full_time}"
         else:
-            pesan = "Jangan Lupa Cek @mahadappa"
+            pesan = "Jangan Lupa cem @IDnyaKosong"
         await self.bot.send_message(config.channel_log, pesan, enums.ParseMode.HTML, disable_web_page_preview=True)
 
     def formatrupiah(self, uang):
