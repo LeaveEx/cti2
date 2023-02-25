@@ -20,5 +20,4 @@ python3 main.py
 * `{username}` - Username
 * `{fullname}` - Username
 
-<h4>Click the button below to deploy Yukki on Heroku!</h4>    
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/muhammadrizky16/fwb/tree/y)</br>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/muhammadrizky16/MenfessBot/tree/y)</br>
