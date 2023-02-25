@@ -74,6 +74,14 @@
       "value": "{mention}, Silahkan ketik /help untuk menggunakan bot ini"
     }
   },
+  "addons": [
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
   "buildpacks": [
     {
       "url": "heroku/python"
