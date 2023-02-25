@@ -33,6 +33,10 @@
       "description": "repost channel id, untuk mengirim menfess",
       "value": "-100"
     },
+    "CHANNEL_2": {
+    "description": "repost channel id, untuk mengirim menfess",
+    "value": "-100"
+    },
     "CHANNEL_LOG": {
       "description": "channel log id, untuk melihat log user menfess",
       "value": "-100"
