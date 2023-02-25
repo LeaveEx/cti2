@@ -19,3 +19,5 @@ python3 main.py
 * `{mention}` - Mention the user
 * `{username}` - Username
 * `{fullname}` - Username
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/muhammadrizky16/MenfessBot)</br>
