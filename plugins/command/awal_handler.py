@@ -90,8 +90,8 @@ async def gagal_kirim_handler(client: Client, msg: types.Message):
 async def help_handler(client, msg):
     db = Database(msg.from_user.id)
     member = db.get_data_pelanggan()
-    pesan = "Silahkan gunakan format berikut untuk mengirim pesan\n"
-    pesan += '#Boy / #Girl untuk Mencari Pasangan, Teman , Partner FWB \n#Ask untuk Bertanya \n#Story untuk Berbagi Cerita \n#Spill untuk Spill Masalah \n#Find untuk Mencari VCS \n'
+    pesan = "Silahkan gunakan hastag berikut agar pesan kamu terkirim ke channel\n"
+    pesan += '#RPLM untuk segala menfess \n#Contoh: \naku gabut banget tau #RPLM \n#RPLM aku gabut banget \nTetap patuhi rules ya! Jangan bandel! \n\n'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
         pesan += '/tf_coin — transfer coin\n'
