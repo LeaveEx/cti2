@@ -91,7 +91,7 @@ async def help_handler(client, msg):
     db = Database(msg.from_user.id)
     member = db.get_data_pelanggan()
     pesan = "Silahkan gunakan hastag berikut agar pesan kamu terkirim ke channel : \n\n"
-    pesan += '#RPLM untuk segala menfess \n\nContoh :  \naku gabut banget tau #RPLM \n#RPLM aku gabut banget \nTetap patuhi rules ya! Jangan bandel! \n'
+    pesan += '#RPLM untuk segala menfess \n\nContoh :  \naku gabut banget tau #RPLM \n#RPLM aku gabut banget \nTetap patuhi rules ya! Jangan bandel! \n\n'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
         pesan += '/tf_coin — transfer coin\n'
