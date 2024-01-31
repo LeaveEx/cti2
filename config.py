@@ -24,7 +24,7 @@ batas_kirim = int(os.environ.get("BATAS_KIRIM", "2"))
 biaya_kirim = int(os.environ.get("BIAYA_KIRIM", "25"))
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#kowkwk #nyetsa #imGirl #imBoy #Ask #Find #Spill #Story").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#kowkwk #nyetsa #imgirl #imboy #ask #random #mutualan #curhat").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph/file/b2f62b0642bf0fd5849a8.jpg")
@@ -32,8 +32,23 @@ pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph/file/c9d103073f89b0568
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot menfess, semua pesan yang kamu kirim akan masuk ke channel secara anonymous. ketik /help")
+start_msg = os.environ.get("START_MSG", """Halo {mention} ⭐\n\n<b>CARI TEMAN MENFESS</b> adalah Bot Auto Post, Semua Pesan Yang Kamu Kirim Akan Masuk Ke Channel @TEMANINDOMENFES. Silahkan kirim pesan anda menggunakan hastag dibawah ini:
+
+#Imboy (Untuk Identitas Laki-Laki)
+#imgirl (Untuk Identitas perempuan)
+#random (Untuk hal random)
+#mutualan (Untuk mutualan)
+#ask (Untuk membagikan hal bodoh)
+#curhat (Untuk curhat masalah)
+""")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
-{mention}, Silahkan ketik /help untuk menggunakan bot ini
+{mention}, Pesan Mu Gagal Terkirim Silahkan Gunakan Hashtag Berikut:
+
+#Imboy (Untuk Identitas Laki-Laki)
+#imgirl (Untuk Identitas perempuan)
+#random (Untuk hal random)
+#mutualan (Untuk mutualan)
+#ask (Untuk membagikan hal bodoh)
+#curhat (Untuk curhat masalah)
 """)
