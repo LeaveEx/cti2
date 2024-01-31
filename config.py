@@ -1,12 +1,12 @@
 import os
 import logging
 
-api_id = int(os.environ.get("API_ID", "WAJIB DIISI"))
-api_hash = os.environ.get("API_HASH", "WAJIB DIISI")
-bot_token = os.environ.get("BOT_TOKEN", "WAJIB DIISI")
+api_id = int(os.environ.get("API_ID", "2857053"))
+api_hash = os.environ.get("API_HASH", "4a01e3596661ba4bf609d15c1f9e129b")
+bot_token = os.environ.get("BOT_TOKEN", "6920903405:AAESzgtmVdKp61m4l0ikZHBilEVSZ-s3QbY")
 # =========================================================== #
 
-db_url = os.environ.get("DB_URL", "mongodb+srv://username:password@cluster0.d9fwl.mongodb.net/?retryWrites=true&w=majority")
+db_url = os.environ.get("DB_URL", "mongodb+srv://muhamadfaiz:muhamadfaiz@cluster0.mpwspud.mongodb.net/?retryWrites=true&w=majority")
 db_name = os.environ.get("DB_NAME", "telegram")
 # =========================================================== #
 
