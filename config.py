@@ -15,16 +15,16 @@ channel_2 = int(os.environ.get("CHANNEL_2", "-1001944303235"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "-1002003868172"))
 # =========================================================== #
 
-id_admin = int(os.environ.get("ID_ADMIN", "5069042518"))
+id_admin = int(os.environ.get("ID_ADMIN", "2100705176"))
 # =========================================================== #
 
-batas_kirim = int(os.environ.get("BATAS_KIRIM", "5"))
+batas_kirim = int(os.environ.get("BATAS_KIRIM", "2"))
 # =========================================================== #
 
-biaya_kirim = int(os.environ.get("BIAYA_KIRIM", "10"))
+biaya_kirim = int(os.environ.get("BIAYA_KIRIM", "25"))
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#Girl #Boy #Ask #Find #Spill #Story").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#kowkwk #nyetsa #imGirl #imBoy #Ask #Find #Spill #Story").replace(" ", "|").lower()
 # =========================================================== #
 
 pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph/file/b2f62b0642bf0fd5849a8.jpg")
