@@ -31,7 +31,7 @@ pic_boy = os.environ.get("PIC_BOY", "https://telegra.ph/file/b2f62b0642bf0fd5849
 pic_girl = os.environ.get("PIC_GIRL", "https://telegra.ph/file/c9d103073f89b0568e38f.jpg")
 # =========================================================== #
 
-pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu")
+pesan_join = os.environ.get("PESAN_JOIN", "BOT TIDAK BISA DI GUNAKAN SILAHKAN JOIN KE CHANNEL ATAU GRUP DI BAWAH")
 start_msg = os.environ.get("START_MSG", """Halo {mention} 🔥\n\n<b>MENFESS RESFAMS</b> adalah Bot Auto Post, Semua Pesan Yang Kamu Kirim Akan Masuk Ke Channel @menfes_resfams. Silahkan kirim pesan anda menggunakan hastag dibawah ini:
 
 #atboy (Untuk Identitas Laki-Laki)
